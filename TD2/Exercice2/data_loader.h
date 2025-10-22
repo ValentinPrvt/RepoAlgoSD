@@ -1,1 +1,0 @@
-int* load_data(const char* filename, int* size);
