@@ -5,7 +5,7 @@
 int main() {
     FILE *file=fopen("data.bin","wb");
     srand(time(NULL));
-    int n=100000;
+    int n=25000;
     fwrite(&n,sizeof(int),1,file);
     for (int i=0;i<n;i++) {
         int value=rand();
